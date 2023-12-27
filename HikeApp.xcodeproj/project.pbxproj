@@ -11,6 +11,9 @@
 		CE7801042B3C719300676645 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7801032B3C719300676645 /* ContentView.swift */; };
 		CE7801062B3C719500676645 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7801052B3C719500676645 /* Assets.xcassets */; };
 		CE7801092B3C719500676645 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7801082B3C719500676645 /* Preview Assets.xcassets */; };
+		CE7801122B3C781B00676645 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7801112B3C781B00676645 /* CardView.swift */; };
+		CE7801152B3C79C300676645 /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7801142B3C79C300676645 /* CustomBackgroundView.swift */; };
+		CE7801182B3C7C1A00676645 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7801172B3C7C1A00676645 /* ColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		CE7801032B3C719300676645 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CE7801052B3C719500676645 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE7801082B3C719500676645 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE7801112B3C781B00676645 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		CE7801142B3C79C300676645 /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
+		CE7801172B3C7C1A00676645 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,8 @@
 			children = (
 				CE7801012B3C719300676645 /* HikeAppApp.swift */,
 				CE7801032B3C719300676645 /* ContentView.swift */,
+				CE7801162B3C7BE800676645 /* Utility */,
+				CE7801132B3C798800676645 /* Component */,
 				CE7801052B3C719500676645 /* Assets.xcassets */,
 				CE7801072B3C719500676645 /* Preview Content */,
 			);
@@ -65,6 +73,23 @@
 				CE7801082B3C719500676645 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE7801132B3C798800676645 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				CE7801112B3C781B00676645 /* CardView.swift */,
+				CE7801142B3C79C300676645 /* CustomBackgroundView.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		CE7801162B3C7BE800676645 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				CE7801172B3C7C1A00676645 /* ColorExtension.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +163,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE7801042B3C719300676645 /* ContentView.swift in Sources */,
+				CE7801122B3C781B00676645 /* CardView.swift in Sources */,
 				CE7801022B3C719300676645 /* HikeAppApp.swift in Sources */,
+				CE7801152B3C79C300676645 /* CustomBackgroundView.swift in Sources */,
+				CE7801182B3C7C1A00676645 /* ColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
