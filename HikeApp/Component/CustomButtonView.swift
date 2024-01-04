@@ -20,7 +20,11 @@ struct CustomButtonView: View {
                                    endPoint: .bottom)
                 )
             Circle()
-                .stroke(LinearGradient(colors: [.customGrayLight, .customGrayMedium], startPoint: .top, endPoint: .bottom),lineWidth: 3)
+                .stroke(LinearGradient(colors: [.customGrayLight,
+                                                .customGrayMedium],
+                                       startPoint: .top,
+                                       endPoint: .bottom),
+                        lineWidth: 4)
             
             Image(systemName: "figure.hiking")
                 .fontWeight(.black)
