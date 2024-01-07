@@ -16,6 +16,7 @@
 		CE7801182B3C7C1A00676645 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7801172B3C7C1A00676645 /* ColorExtension.swift */; };
 		CE78011A2B3C832000676645 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7801192B3C832000676645 /* CustomButtonView.swift */; };
 		CE78011C2B3D997D00676645 /* GradientButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE78011B2B3D997D00676645 /* GradientButtonStyle.swift */; };
+		CE9E565B2B4753270051BEEB /* CustomCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E565A2B4753270051BEEB /* CustomCircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		CE7801172B3C7C1A00676645 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		CE7801192B3C832000676645 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
 		CE78011B2B3D997D00676645 /* GradientButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButtonStyle.swift; sourceTree = "<group>"; };
+		CE9E565A2B4753270051BEEB /* CustomCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				CE7801112B3C781B00676645 /* CardView.swift */,
+				CE9E565A2B4753270051BEEB /* CustomCircleView.swift */,
 				CE7801192B3C832000676645 /* CustomButtonView.swift */,
 				CE7801142B3C79C300676645 /* CustomBackgroundView.swift */,
 			);
@@ -169,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE7801042B3C719300676645 /* ContentView.swift in Sources */,
+				CE9E565B2B4753270051BEEB /* CustomCircleView.swift in Sources */,
 				CE7801122B3C781B00676645 /* CardView.swift in Sources */,
 				CE7801022B3C719300676645 /* HikeAppApp.swift in Sources */,
 				CE78011A2B3C832000676645 /* CustomButtonView.swift in Sources */,
