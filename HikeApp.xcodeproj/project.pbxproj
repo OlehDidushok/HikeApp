@@ -16,6 +16,7 @@
 		CE7801182B3C7C1A00676645 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7801172B3C7C1A00676645 /* ColorExtension.swift */; };
 		CE78011A2B3C832000676645 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7801192B3C832000676645 /* CustomButtonView.swift */; };
 		CE78011C2B3D997D00676645 /* GradientButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE78011B2B3D997D00676645 /* GradientButtonStyle.swift */; };
+		CE86DFEB2B4B2FA2007F4101 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE86DFEA2B4B2FA2007F4101 /* MotionAnimationView.swift */; };
 		CE9E565B2B4753270051BEEB /* CustomCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E565A2B4753270051BEEB /* CustomCircleView.swift */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,7 @@
 		CE7801172B3C7C1A00676645 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		CE7801192B3C832000676645 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
 		CE78011B2B3D997D00676645 /* GradientButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButtonStyle.swift; sourceTree = "<group>"; };
+		CE86DFEA2B4B2FA2007F4101 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
 		CE9E565A2B4753270051BEEB /* CustomCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				CE7801112B3C781B00676645 /* CardView.swift */,
+				CE86DFEA2B4B2FA2007F4101 /* MotionAnimationView.swift */,
 				CE9E565A2B4753270051BEEB /* CustomCircleView.swift */,
 				CE7801192B3C832000676645 /* CustomButtonView.swift */,
 				CE7801142B3C79C300676645 /* CustomBackgroundView.swift */,
@@ -177,6 +180,7 @@
 				CE7801022B3C719300676645 /* HikeAppApp.swift in Sources */,
 				CE78011A2B3C832000676645 /* CustomButtonView.swift in Sources */,
 				CE78011C2B3D997D00676645 /* GradientButtonStyle.swift in Sources */,
+				CE86DFEB2B4B2FA2007F4101 /* MotionAnimationView.swift in Sources */,
 				CE7801152B3C79C300676645 /* CustomBackgroundView.swift in Sources */,
 				CE7801182B3C7C1A00676645 /* ColorExtension.swift in Sources */,
 			);
